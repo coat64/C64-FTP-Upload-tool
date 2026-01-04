@@ -43,7 +43,7 @@ This tool is intended as a simple helper for quickly copying disk images and pro
 ## Using C64u_upload
 
 1. Start the program on the PC (executable or python-script)
-2. Select the file you want to uploadto the C64u (for example: `.d64`, `.prg`, etc.)
+2. Select the file you want to upload to the C64u (for example: `.d64`, `.prg`, etc.)
 3. **First use only**:  
    - Enter the **Active IP address of the C64 Ultimate**  
    - This address will be remembered after the first successful upload
