@@ -76,7 +76,6 @@ If an upload does not work:
 ## Notes
 
 - FTP access uses **plain FTP** (no username/password by default on the Ultimate)
-- Directory paths must use forward slashes (`/`)
 - The tool automatically switches to binary transfer mode
 
 ---
