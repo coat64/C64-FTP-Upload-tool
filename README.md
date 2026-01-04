@@ -20,9 +20,8 @@ This tool is intended as a simple helper for quickly copying disk images and pro
 ## Requirements
 
 - Commodore 64 Ultimate with Wi-Fi configured
-- FTP file service enabled on the Ultimate
-- PC and C64 Ultimate connected to the **same network**
-- Python 3.x
+- PC and C64 Ultimate connected to the same network
+- Python 3.x (when running it with python)
 
 ---
 
@@ -43,15 +42,15 @@ This tool is intended as a simple helper for quickly copying disk images and pro
 
 ## Using C64u_upload
 
-1. Start the program (executable or python-script)
-2. Select the file you want to upload (for example: `.d64`, `.prg`, etc.)
+1. Start the program on the PC (executable or python-script)
+2. Select the file you want to uploadto the C64u (for example: `.d64`, `.prg`, etc.)
 3. **First use only**:  
-   - Enter the **IP address of the C64 Ultimate**  
+   - Enter the **Active IP address of the C64 Ultimate**  
    - This address will be remembered after the first successful upload
 4. Enter the **target directory** on the C64 Ultimate  
    - The **first part of the directory must already exist** on the C64  
      (for example: `Temp`, `SD`, `USB`, `Flash`, …)
-   - Example:   /SD/MyFolder
+   - Example:   **/SD**/MyFolder
    - If `MyFolder` does not exist, it will be created automatically
 5. Press **Upload**
 6. When the upload is finished, you can:
@@ -64,7 +63,7 @@ This tool is intended as a simple helper for quickly copying disk images and pro
 
 If an upload does not work:
 
-- Is the C64 Ultimate powered on?
+- Is the C64 Ultimate powered on :)?
 - Are **FTP** and **DHCP** enabled on the Ultimate?
 - Is the **Active IP address** still correct?
 - Does the first part of the target directory exist on the C64 Ultimate  
